@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.top-section {
+  margin-left: auto;
+
+}
+
+.vertCenter {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+  background-color: rgba(255,255,255,0.5);
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlayText {
+  font-weight: bold;
+  width: 100%;
 }

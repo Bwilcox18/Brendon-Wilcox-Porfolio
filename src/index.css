@@ -11,3 +11,172 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body .headerText {
+  color: #9c29fa;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb
+}
+
+.navbar {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+a {
+  color: #111;
+}
+
+i {
+  padding-right: 5px;
+}
+
+#mainLogo {
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Sacramento";
+  src: url(/fonts/Sacramento-Regular.ttf);
+}
+h1, h3, h4, h5 {
+  font-family: "Sacramento";
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/img/pastelCupcake.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carouselCont {
+  width:  600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 19rem;
+  border: solid white;
+  box-shadow: 5px 5px 5px black;
+}
+
+.baker {
+  padding: 4px;
+  line-height: 1.42857143;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pattern {
+  height: auto;
+  width: 100vw;
+  background-image: repeating-linear-gradient(-45deg,
+  #FC99B1,
+  #FC99B1 2px,
+  #FC93AC 2px,
+  #FC93AC 4px);
+  box-shadow: 0px 15px 10px -15px #111; 
+}
+
+.transparent {
+  background-color: rgba(255,255,255,0.5);
+  padding-left: 5rem;
+  padding-right: 2rem;
+  padding-top: auto;
+}
+
+.letUsTop {
+  padding-top: 2rem;
+}
+
+.letUsBottom {
+  padding-bottom: 2rem;
+}
+
+.topLogo {
+  padding-right: 0px;
+  padding-left: auto;
+
+}
+
+.site-footer {
+  height: auto;
+  width: 100vw;
+  background-image: repeating-linear-gradient(-45deg,
+  #FC99B1,
+  #FC99B1 2px,
+  #FC93AC 2px,
+  #FC93AC 4px);
+  box-shadow: 0px -15px 10px -15px #111;
+}
+
+.spacer {
+  height: 40px
+}
+
+.footer-center {
+  margin: auto;
+  width: 50%;
+}
+
+.indent {
+  display: block;
+}
+
+.shadow-bottom {
+  box-shadow: 0px 15px 10px -15px #111; 
+}
+/* -------------------------------------- Image Grid --------------------------------------*/
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 60px;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+  background-color: rgba(255,255,255,0.5);
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlayText {
+  font-weight: bold;
+  width: 100%;
+}
+
+.personBaking {
+  height: 300px;
+}
+/* Center secondary NAV */
+.hoverNav {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+}
