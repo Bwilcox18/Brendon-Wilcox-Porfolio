@@ -10,32 +10,34 @@ class Main extends Component {
             <div className="container">
                 <Header />
                 <Route path="/AboutMe" component={AboutMe}/>
-                    <div className="row mt-4">
-                        <div class="col-12 col-md-4">
-                            <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                            <div class="overlay">
-                                <div class="content text-center">
-                                    <h3 class="overlayText">Cakes</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                            <div class="overlay">
-                                <div class="content text-center">
-                                    <p className="display-5">Hello</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                            <div class="overlay">
-                                <div class="content text-center">
-                                    <h3 class="overlayText">Cakes</h3>
-                                </div>
+                <div className="row mt-4">
+                    <div className="col-12 col-md-4">
+                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
+                        <div className="overlay">
+                            <div className="content text-center">
+                                <p>Nucamp</p> 
+                                <hr />
+                                <p>Find Your Campsite!</p>
                             </div>
                         </div>
                     </div>
+                    <div className="col-12 col-md-4">
+                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
+                        <div className="overlay">
+                            <div className="content text-center">
+                                <p>Hello</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4">
+                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
+                        <div className="overlay">
+                            <div className="content text-center">
+                                <p>Cakes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         );
