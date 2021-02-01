@@ -12,30 +12,14 @@ class Main extends Component {
                 <Route path="/AboutMe" component={AboutMe}/>
                 <div className="row mt-4">
                     <div className="col-12 col-md-4">
-                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                        <div className="overlay">
-                            <div className="content text-center">
-                                <p>Nucamp</p> 
-                                <hr />
-                                <p>Find Your Campsite!</p>
-                            </div>
-                        </div>
+                        <a href="https://findcampsite.netlify.app">
+                            <img src="/imgs/NucampTN.PNG" alt="" class="img-thumbnail hvr-grow" height="200" />
+                        </a>
                     </div>
                     <div className="col-12 col-md-4">
-                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                        <div className="overlay">
-                            <div className="content text-center">
-                                <p>Hello</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <img src="/imgs/NucampTN.PNG" alt="" className="img-thumbnail" height="200" />
-                        <div className="overlay">
-                            <div className="content text-center">
-                                <p>Cakes</p>
-                            </div>
-                        </div>
+                        <a href="https://pen-del.netlify.app">
+                            <img src="/imgs/Pen-DelTN.png" alt="" class="img-thumbnail hvr-grow" height="200" />
+                        </a>
                     </div>
                 </div>
             </div>

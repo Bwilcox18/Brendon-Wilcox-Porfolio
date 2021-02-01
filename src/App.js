@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Main from './Components/MainComponent';
 import { BrowserRouter } from 'react-router-dom';
+//Reactstrap already installed!
 
 function App() {
   return (
